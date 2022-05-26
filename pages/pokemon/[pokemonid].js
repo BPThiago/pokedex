@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import styles from '../../styles/Pokedescription.module.css';
 import idConverter from '../../utils/idConverter';
-import {useRouter} from 'next/router';
 import { wrongNames, correctNames } from '../../utils/changeNames';
 export const getStaticPaths = async () => {
     
