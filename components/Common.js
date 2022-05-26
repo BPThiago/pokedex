@@ -6,7 +6,7 @@ export default function Commmon({children}) {
         <>
         <Head>
             <title>Pokédex</title>
-            <link rel="shortcut icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <meta name="description" content="A simple next.js pokedex from PokéApi data." />
             <meta
                 name="keywords"
