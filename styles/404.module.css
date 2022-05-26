@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Unown, Regular';
+    src: url('../assets/unown/Unown.ttf');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #ddd;
+    flex-grow: 1;
+}
+
+.unown {
+    font-family: 'Unown, Regular';
+    font-size: 10rem !important;
+    color: #222;
+}
+
+.text {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    color: #222;
+}
+
+.link {
+    color: #111;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: crimson;
+}

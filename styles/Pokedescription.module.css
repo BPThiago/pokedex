@@ -1,0 +1,238 @@
+.container {
+    flex-grow: 1;
+    background-color: #bbb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pokeInfo {
+    max-width: 120rem;
+    width: 100%;
+    border-radius: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.pokemon h3 {
+    position: absolute;
+    margin: auto;
+    font-size: 14rem;
+    color: #333;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 1rem;
+    width: 90%;
+    background-color: #aaa;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.name h1 {
+    font-size: 4rem;
+    color: #123;
+}
+
+.data div {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-left: 2rem;
+    gap: 0.5rem;
+}
+
+.detailsContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.data > div {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.data > div > h4 {
+    font-size: 2rem;
+    color: #123;
+    margin-right: 0.5rem;
+}
+
+.data > div > p {
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+.topic {
+    display: flex;
+    padding: 2rem 5rem; 
+    width: 100%;
+    background-color: #777;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.topic h2 {
+    color: #ccc;
+}
+
+.type {
+    padding: 0.6rem 1rem;
+    color: #eee;
+    background-color: #111;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 0.5rem;
+}
+
+.normalType {
+    background-color: #aa9;
+}
+
+.fireType {
+    background-color: #f42;
+}
+
+.waterType {
+    background-color: #39f;
+}
+
+.eletricType {
+    background-color: #fc3;
+}
+
+.grassType {
+    background-color: #7c5;
+}
+
+.iceType {
+    background-color: #6cf;
+}
+
+.fightingType {
+    background-color: #b54;
+}
+
+.poisonType {
+    background-color: #a59;
+}
+
+.groundType {
+    background-color: #db5;
+}
+
+.flyingType {
+    background-color: #89f;
+}
+
+.psychicType {
+    background-color: #f59;
+}
+
+.bugType {
+    background-color: #ab2;
+}
+
+.rockType {
+    background-color: #ba6;
+}
+
+.ghostType {
+    background-color: #66b;
+}
+
+.dragonType {
+    background-color: #76e;
+}
+
+.darkType {
+    background-color: #754;
+}
+
+.steelType {
+    background-color: #aab;
+}
+
+.fairyType {
+    background-color: #e9e;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+}
+
+.statsElement {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.statsElement > p {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #123;
+}
+
+.maxStat {
+    width: 50%;
+    background-color: #888;
+    border: 0.1rem solid #333;
+    padding: 0.2rem;
+}
+
+.pokemonStat {
+    display: flex;
+    height: 100%;
+    background-color: #555;
+    
+}
+
+.pokemonStatText {
+    margin-left: 0.4rem;
+    font-size: 1.4rem;
+    color: #ddd;
+    font-weight: 500;
+}
+
+.pokemonImage {
+    background-size: 100%;
+    width: 20rem;
+    height: 20rem;
+    z-index: 1;
+}
