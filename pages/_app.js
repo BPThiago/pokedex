@@ -1,11 +1,11 @@
-import NavBar from '../components/NavBar'
+import Commmon from '../components/Common'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NavBar>
+    <Commmon>
       <Component {...pageProps} />
-    </NavBar>
+    </Commmon>
   )
 }
 
