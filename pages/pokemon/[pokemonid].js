@@ -67,7 +67,7 @@ export default function Pokemon({ pokemon }) {
                         <div>
                             <h4>Type:</h4>
                             {pokemon.types.map((value) => (
-                                <span className={`${styles.type} ${styles[value.type.name + 'Type']}`}>{value.type.name}</span>
+                                <span key={value.type.name} className={`${styles.type} ${styles[value.type.name + 'Type']}`}>{value.type.name}</span>
                             ))}
                         </div>
                         <div>
@@ -86,7 +86,7 @@ export default function Pokemon({ pokemon }) {
                     <div className={styles.stats}>
                         {pokemon.stats.map(
                                 element => (
-                                <div className={styles.statsElement}>
+                                <div key={element.stat.name} className={styles.statsElement}>
                                     <p>{element.stat.name.replace('-', ' ')}</p>
                                     <div className={styles.maxStat}>
                                         <span className={styles.pokemonStat} style={{width: `${element.base_stat*100/255}%`}}>

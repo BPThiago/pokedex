@@ -36,7 +36,7 @@ export default function Home({ pokemons }) {
       pokemon.name.toLowerCase().includes(input.toLowerCase())
     )))
   }, 
-  [input]
+  [input, pokemons.results]
   )
 
   return (

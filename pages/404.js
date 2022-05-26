@@ -7,7 +7,7 @@ export default function NotFound() {
             <h1 className={styles.text}>404</h1>
             <Link href='/'>
                 <p className={styles.link}>
-                    This page doesn't exist, so, please, visit our homepage clicking here.
+                    This page doesnt exist, so, please, visit our homepage clicking here.
                 </p>
             </Link>
             
