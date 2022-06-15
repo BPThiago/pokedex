@@ -1,4 +1,4 @@
-import Commmon from '../components/Common'
+import Common from '../components/Common'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
