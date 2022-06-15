@@ -3,9 +3,9 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Commmon>
+    <Common>
       <Component {...pageProps} />
-    </Commmon>
+    </Common>
   )
 }
 
